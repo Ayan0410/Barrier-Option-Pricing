@@ -1,0 +1,9 @@
+[project]
+name = "barrier-option-vercel-demo"
+version = "1.0.0"
+description = "Barrier option pricing and model validation demo"
+requires-python = ">=3.12,<3.15"
+dependencies = [
+  "fastapi>=0.115,<1.0",
+  "numpy>=2.0,<3.0"
+]
